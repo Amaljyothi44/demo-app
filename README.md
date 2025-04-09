@@ -5,12 +5,12 @@ A mobile app built with React Native that allows users to toggle between light/d
 ## Screenshots
 
 ### Light Mode
-![Light Mode](assets/light1.jpg)
-![Light Mode](assets/light2.jpg)
+![Light Mode](/assets/images/light1.jpg)
+![Light Mode](/assets/images/light2.jpg)
 
 ### Dark Mode
-![Dark Mode](assets/dark1.jpg)
-![Dark Mode](assets/dark2.jpg)
+![Dark Mode](/assets/images/dark1.jpg)
+![Dark Mode](/assets/images/dark2.jpg)
 
 ## Features
 
