@@ -1,4 +1,4 @@
-# Welcome to # React Native Theme & Font Customizer app 👋
+# Welcome to React Native Theme & Font Customizer app 👋
 
 A mobile app built with React Native that allows users to toggle between light/dark themes and adjust font sizes with persistent preferences.
 
