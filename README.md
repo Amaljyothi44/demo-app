@@ -1,6 +1,22 @@
-# Welcome to your Expo app 👋
+# Welcome to # React Native Theme & Font Customizer app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app built with React Native that allows users to toggle between light/dark themes and adjust font sizes with persistent preferences.
+
+## Features
+
+- Light/Dark theme toggle
+- Font size increase/decrease
+- System theme detection
+- Persistent user settings with AsyncStorage
+- Real-time UI updates
+
+## Usage
+
+- On first launch, the app matches your system’s theme.
+- Use the settings screen to toggle between light and dark modes.
+- Adjust font size using the + or - buttons.
+- Preferences are saved even after closing the app.
+
 
 ## Get started
 
@@ -42,9 +58,3 @@ To learn more about developing your project with Expo, look at the following res
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
