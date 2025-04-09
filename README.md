@@ -3,16 +3,13 @@
 A mobile app built with React Native that allows users to toggle between light/dark themes and adjust font sizes with persistent preferences.
 
 ## Screenshots
-### Dark Mode
-![Dark Mode](/assets/images/dark1.jpg)
-![Dark Mode](/assets/images/dark2.jpg)
-
-### Light Mode
-![Light Mode](/assets/images/light2.jpg)
-![Light Mode](/assets/images/light1.jpg)
-
-
-
+### Dark Mode & Light Mode
+<p float="left">
+  <img src="assets/images/dark1.jpg" width="200" />
+  <img src="assets/images/dark2.jpg" width="200" />
+  <img src="assets/images/light2.jpg" width="200" />
+   <img src="assets/images/light1.jpg" width="200" />
+</p>
 ## Features
 
 - Light/Dark theme toggle
