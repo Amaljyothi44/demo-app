@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, ViewProps } from 'react-native'
+import { useTheme } from '@/context/ThemeContext'
 
 export type LayoutScreenProps = ViewProps & {
     lightColor?: string
@@ -8,11 +9,21 @@ export type LayoutScreenProps = ViewProps & {
 
 export function LayoutScreen(props: LayoutScreenProps) {
     const { style, lightColor, darkColor, ...otherProps } = props
-    const darkThemeColor = darkColor
-    const lightThemeColor = lightColor
-    const backgroundColor = "#ffffff"
+    const { isDark } = useTheme()
+    
+    const backgroundColor = isDark 
+        ? (darkColor || '#1a1a1a')
+        : (lightColor || '#ffffff')
+        
     return (
-        <View style={[styles.container, { backgroundColor }, style]} {...otherProps} />
+        <View 
+            style={[
+                styles.container, 
+                { backgroundColor }, 
+                style
+            ]} 
+            {...otherProps} 
+        />
     )
 }
 
